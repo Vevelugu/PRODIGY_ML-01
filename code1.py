@@ -1,3 +1,12 @@
+'''
+The following is a code for training a  linear regression model and predict the sales prices of rooms
+based on the area and number of bedrooms and bathrooms. The dataset used is the one mentioned in the 
+task 1 slide of the Internship guide provided on canva. It is the house prices dataset from Kaggle.
+The file is directly read from the raw copy in the repo.
+
+There are 3 functions here namely, preprocess()
+training() and predictions(). The data is directly read from the raw file in the repo
+'''
 # Importing necessary libraries
 import pandas as pd
 from sklearn.linear_model import LinearRegression
